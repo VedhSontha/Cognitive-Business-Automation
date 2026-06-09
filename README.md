@@ -109,7 +109,16 @@ venv\Scripts\activate
 
 Each module runs a standalone Streamlit web application.
 
-### 1. Run the Churn Predictor (Task 2)
+### 1. Run the Rossmann Sales Forecaster (Task 1)
+```bash
+cd task-1
+# Install Task 1 requirements
+pip install -r ../FlowbitAI/requirements.txt
+# Run the app
+streamlit run app.py
+```
+
+### 2. Run the Churn Predictor (Task 2)
 ```bash
 # Install Task 2 packages
 pip install pandas numpy scikit-learn joblib streamlit plotly
